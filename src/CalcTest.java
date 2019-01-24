@@ -8,12 +8,11 @@ public class CalcTest {
         System.out.println("Podaj drugą liczbę");
         int secondNumber = input.nextInt();
         if (firstNumber > secondNumber) {
-            System.out.println("Pierwsza liczba większa od drugiej:");
+            System.out.println("Pierwsza liczba większa od drugiej:"+ (firstNumber + secondNumber) );
         } else if (firstNumber < secondNumber) {
-            System.out.println("PIerwsza liczba mniejsza od drugiej:");
-        } else if (firstNumber == secondNumber * 2) {
-            System.out.println("Liczby są równe i podniesione do kwadratu:");
+            System.out.println("PIerwsza liczba mniejsza od drugiej:" + (firstNumber + secondNumber) );
+        } else if (firstNumber == secondNumber) {
+            System.out.println("Liczby są równe i podniesione do kwadratu:" + (firstNumber + secondNumber) * 2);
         }
-
     }
 }
